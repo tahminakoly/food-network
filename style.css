@@ -12,9 +12,15 @@ h1{
 .span-color{
     color: orange;
 }
-section{
+.flex-area{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+}
+.back-img{
+    margin-bottom: 60px;
+    display: flex;
+    background-image: url(images/shapes/bac1.png);
+    background-repeat: no-repeat;
 }
 .divide{
     width: 50%;
@@ -26,6 +32,9 @@ section{
 #img2{
     width: 60%;
 }
+p{
+    margin-bottom: 50px;
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
@@ -35,10 +44,26 @@ section{
     font-weight: 700;
     
 }
-.back-img{
- background-image: url(images/shapes/bac1.png);
- background-repeat: no-repeat;
+.recipies-divide{
+    width: 25%;
+    box-shadow: 10px 10px 10px 10px gray;
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px 15px 15px 15px;
 }
+#p-align{
+    text-align: center;
+}
+#h-align{
+    text-align: center;
+}
+
 .contact-button{
     margin-bottom: 10px;
 }
+.img-setup{
+    height: 300px;
+    width: 300px;
+}
+
